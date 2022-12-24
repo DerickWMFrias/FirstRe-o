@@ -9,9 +9,6 @@ template<typename genericArg>
 void mergesort(int a, int b, genericArg arr[]);
 
 template<typename genericArg>
-void teste(genericArg arr[]);
-
-template<typename genericArg>
 void teste(genericArg arr[]){
     arr[0] = 999;
 }
@@ -79,10 +76,5 @@ int main(){
     for(int i = 0; i < 10; i++) cout << v[i] << " ";
     cout << endl;
 
-    teste <int> (v);
-
-    for(int i = 0; i < 10; i++) cout << v[i] << " ";
-    cout << endl;
-    
     return 0;
 }
